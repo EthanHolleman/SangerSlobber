@@ -14,12 +14,12 @@ include:'rules/blast.smk'
 concat_tsv_files = str(Path(OUT_DIR).joinpath('convert/concat/trimmed/all_samples.ggplot.tsv'))
 all_fastqc = str(Path(OUT_DIR).joinpath('fastqc/.all.trimmed.done'))
 multiqc = str(Path(OUT_DIR).joinpath('multiqc'))
-blast = str(Path(OUT_DIR).joinpath('blast/results/local_blast.tsv'))
+BLAST = str(Path(OUT_DIR).joinpath('blast/results/local_blast.tsv'))
 
 rule all:
     input:
         concat_tsv_files,
         all_fastqc,
         multiqc,
-        blast
+        BLAST
         

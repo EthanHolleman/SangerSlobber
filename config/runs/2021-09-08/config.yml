@@ -1,0 +1,4 @@
+output_dir: 'output/2021-09-08'
+samples: 'config/runs/2021-09-08/samples.tsv'
+align_to: 'config/runs/2021-09-08/align_to/complete_inserts.fa'
+header_regex: 'VR-\d+-c\d+'

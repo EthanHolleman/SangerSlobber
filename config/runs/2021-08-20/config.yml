@@ -1,3 +1,4 @@
 output_dir: 'output/2021-08-20'
 samples: 'config/runs/2021-08-20/samples.tsv'
 align_to: 'config/runs/2021-08-20/align_to/complete_inserts.fa'
+header_regex: 'VR-\d+'
